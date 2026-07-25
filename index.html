@@ -1,23 +1,37 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>William</title>
-        <!DOCTYPE html>
-        <link rel="stylesheet" href="main.css"
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <h1>William's Website!</h1>
-        <p>I'm <b>William</b>, i'm part of <a href="hackclub.com"><b>Hackclub</b></a> and from England! 🏴󠁧󠁢󠁥󠁮󠁧󠁿</p>
+        <nav>
+        <a href="#coding">Coding</a>
+        <a href="#hardware">Hardware</a>
+        <a href="#ham">HAM Radio</a>
+        <a href="#gaming">Gaming</a>
+        </nav>
+        <p>I'm <b>William</b>, i'm part of <a class="hackclub-link" href="hackclub.com"><b>Hackclub</b></a> and from England! 🏴󠁧󠁢󠁥󠁮󠁧󠁿</p>
         <br>
         <div>
             <h2>My Hobbies:</h2>
-            <h3>Coding!</h3>
-            <p>I'm now learning HTML, CSS and hopefully some JS!</p>
-            <h3>Hardware!</h3>
+          <section id="coding">
+           <h3>Coding!</h3>
+            <p>I'm now learning <b>HTML</b>, <b>CSS</b> and hopefully some <b>JS</b>!</p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png" alt="JS Logo from Wikipedia" width="100" class="hobby-pics">  
+          </section>  
+          <section id="hardware">
+          <h3>Hardware!</h3>
             <p>I love tinkering with hardware like ESP32's, Robot Arms and more!</p> <img src="https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32-C/SBC-NodeMCU-ESP32-C_01.png" alt="ESP32 image from JOY-IT" width="175" class="hobby-pics">
+           </section>
+           <section id="ham">
             <h3>HAM Radio!</h3>
-            <p>I'm in the process of studying for my foundation licence<br>so I can talk on the airwaves!</p> <img src="https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32-C/SBC-NodeMCU-ESP32-C_01.png" alt="ESP32 image from JOY-IT" width="175" class="hobby-pics">
+            <p>I'm in the process of studying for my foundation licence<br>so I can talk on the airwaves!</p> <img src="https://cdn11.bigcommerce.com/s-apohb2qf/images/stencil/1280x1280/products/688/20897/baofeng-uv-5r-dual-band-uhf-vhf-ham-radio-two-way-fm-walkie-talkie-black-with-earpiece__61666.1740670436.jpg?c=2" alt="UV5R Radio from Baofeng" width="175" class="hobby-pics">
+           </section>
+           <section id="gaming">
             <h3>Gaming!</h3>
-            <p>Like most people, I love playing video games - specificly indie games <br> like <b>Brick Rigs</b> or <b>Stormworks</b></p>
+            <p>Like most people, I love playing video games - specificly indie games <br> like <b>Brick Rigs</b> or <b>Scrap Mechanic</b></p> <img src="https://assets-prd.ignimgs.com/2023/08/15/brickrigs-1692058802798.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80" alt="Brick Rigs" width="100" class="hobby-pics"> <img src="https://preview.redd.it/i-do-like-to-the-old-bearing-as-the-logo-but-i-think-this-v0-c0osdgz4up661.png?width=256&format=png&auto=webp&s=9fc4bbc2d8459a0a2092a69d080d2ff640131ddb" alt="Scrap Mechanic" width="100" class="hobby-pics">
+        </section>
         </div>
     </body>
 </html>
