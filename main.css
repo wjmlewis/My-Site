@@ -13,6 +13,11 @@ div {
     box-shadow: 10px 10px 0px 0.1px;
     outline: 5px;
     outline-style: dashed;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .hobby-pics:hover {
@@ -39,4 +44,16 @@ html {
 
 .clouds {
     margin: -50px 35px;
+    animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {transform: translateY(0px);
+    }
+    }
