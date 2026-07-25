@@ -57,3 +57,47 @@ html {
     100% {transform: translateY(0px);
     }
     }
+
+a.gaming {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+a.gaming:hover {
+    transform: scale(1.05);
+    display: inline-block;
+}
+
+a.coding {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+a.coding:hover {
+    transform: scale(1.05);
+    display: inline-block;
+}
+
+a.hardware {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+a.hardware:hover {
+    transform: scale(1.05);
+    display: inline-block;
+}
+
+a.ham {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+a.ham:hover {
+    transform: scale(1.05);
+    display: inline-block;
+}
