@@ -36,3 +36,7 @@ div {
 html {
     scroll-behavior: smooth;
 }
+
+.clouds {
+    margin: -50px 35px;
+}
